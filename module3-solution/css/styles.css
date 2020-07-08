@@ -1,0 +1,97 @@
+body {
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #416475;
+	font-family: 'Roboto', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #111111;
+	border-radius: 0;
+	border: 0;
+}
+.navbar {
+	min-height: 57px;
+	margin-bottom: 0px;
+}
+.navbar-brand {
+	padding-top: 25px;
+}
+.navbar-brand h1 {
+	font-family: 'Fondamento', cursive;
+	color: #337ab7;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #539AD7;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 0.5;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+#nav-list a {
+	border: 1px solid #111111;
+	background-color: #222222;
+	color: #FFFFFF;
+	text-shadow: 1px 1px 1px #111111;
+	text-align: center;
+}
+#nav-list a:hover {
+	background: #337ab7;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #337ab7;
+}
+.navbar-header button.navbar-toggle {
+	clear: both;
+	margin-top: -35px;
+}
+/* END HEADER */
+
+/** MAIN CONTENT **/
+#main-content {
+	background-color: #112435;
+}
+#our-menu {
+	font-size: 2.5em;
+	text-shadow: 1px 1px 1px #111111;
+	margin-bottom: 30px;
+}
+section { 
+	background-color: #222222;
+	border: 2px solid #111111;
+	width: 100%;
+	margin: 0 auto 15px;
+}
+section h3 {
+	width: 100%;
+	text-align: center;
+	font-size: 2em;
+	color: #5F2C3F;
+	text-shadow: 1px 1px 1px #000;
+	/* padding-top: 10px; */
+	margin-bottom: -10px;
+}
+section p {
+	padding: 20px;
+}
+section p a {
+	background-color: #416475;
+	color: #222222;
+	font-size: 0.75em;
+	font-weight: bold;
+	padding: 3px;
+}
+section p a:hover, section p a:focus {
+	text-decoration: none;
+	background-color: #112435;
+	color: #000000;
+}
+/** END MAIN CONTENT **/
